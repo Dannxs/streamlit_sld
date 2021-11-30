@@ -100,7 +100,7 @@ RTC_CONFIGURATION = RTCConfiguration(
 #@st.cache(allow_output_mutation=True)
 @st.experimental_singleton
 def load_mo():
-    model = load_model('models/model_resnet50_V2_8830.h5')
+    model = load_model('models/model.h5')
     return model
 
 # Your class where you put the intelligence
